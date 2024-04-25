@@ -3,7 +3,7 @@ import time
 
 
 def load_dashboard():
-    url_dashboard = "https://lookerstudio.google.com/embed/reporting/58146385eed44f5482cd-c11d81075572/page/WGxxD"
+    url_dashboard = "https://lookerstudio.google.com/embed/reporting/58146385-eed4-4f54-82cd-c11d81075572/page/WGxxD"
     iframe_code = (
         '<iframe src="' + url_dashboard + '" '
         'width="100%" height="600" frameborder="0">'
