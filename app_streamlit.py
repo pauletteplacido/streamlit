@@ -7,7 +7,7 @@ def load_dashboard():
     st.markdown(
         f'<div style="background-color: #333333; padding: 20px; border-radius: 5px;">'
         f'<iframe src="{
-            url_dashboard}" width="100%" height="600" frameborder="0"></iframe>"'
+            url_dashboard}" width="100%" height="600" frameborder="0"></iframe>'
         f'</div>',
         unsafe_allow_html=True
     )
@@ -17,6 +17,7 @@ def main():
     # Configura la página de Streamlit
     st.set_page_config(page_title="dashboard", layout="wide")
 
+    # Aplica el estilo de fondo a toda la página
     st.markdown(
         """
         <style>
